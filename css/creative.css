@@ -30,7 +30,9 @@ a:focus {
   color: #eb3812;
 }
 h1,
-h2,
+h2 {
+  text-transform: uppercase;
+}
 h3,
 h4,
 h5,
@@ -155,9 +157,8 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/banner.jpg');
   text-align: center;
-  color: white;
 }
 header .header-content {
   position: relative;
@@ -166,18 +167,19 @@ header .header-content {
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
-  font-weight: 700;
+  font-weight: 300;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
+  color: #ff0000;
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
+  color: #ff0000;
   font-size: 16px;
   margin-bottom: 50px;
 }
@@ -414,3 +416,4 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
